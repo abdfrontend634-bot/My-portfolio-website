@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="text-gray-900">
+
+  <!-- Navigation -->
+  <header class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white sticky top-0 z-20 shadow-lg">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="#home" class="text-3xl font-bold hover:text-gray-200">My Portfolio</a>
+      <nav class="space-x-8 text-sm font-medium">
+        <a href="#home" class="hover:text-gray-200">Home</a>
+        <a href="#about" class="hover:text-gray-200">About</a>
+        <a href="#projects" class="hover:text-gray-200">Projects</a>
+        <a href="#contact" class="hover:text-gray-200">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section with Diagonal Split -->
+  <section id="home" class="hero-section">
+    <div class="hero-content">
+      <h1 class="text-5xl font-extrabold text-white leading-tight">Hello, I'm ABD</h1>
+      <p class="text-xl mb-8">I design and develop modern, fast & responsive websites.</p>
+      <a href="#projects" class="cta-button">View My Work</a>
+    </div>
+    <div class="hero-right">
+      <h2>Welcome to My Portfolio</h2>
+      <p>Here you'll discover a collection of my finest projects, thoughtfully crafted to deliver modern, responsive,
+        and user-friendly web experiences. I focus on clean design, performance, and meaningful digital solutions,</p>
+      <a href="#about" class="cta-button">Learn More About Me</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="py-24 px-6 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="section-title text-4xl font-semibold mb-8">About Me</h2>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto mb-8">I am a web designer and developer with a passion for
+        creating clean and interactive websites. I believe in simplicity, user experience, and innovative solutions.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">Skills & Technologies</h3>
+          <ul class="text-gray-600 space-y-2">
+            <li>HTML & CSS</li>
+            <li> Responsive web design</li>
+            <li>Landing Page</li>
+            <li>Learning Jawa Script</li>
+            <li>Web Accessibility</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-semibold mb-4">My Approach</h3>
+          <p class="text-gray-600">I focus on creating seamless user experiences, responsive layouts, and engaging
+            designs that reflect the essence of the brands I work with.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- Projects Section -->
+  <section id="projects" class="py-24 px-6 bg-gray-100">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="section-title text-4xl font-semibold mb-8">My Projects</h2>
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Project Card 1 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover-transform">
+          <img src="https://zappyedit.com/templates/thumbs/landing1.png" alt="Project 1"
+            class="w-full h-56 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-xl text-gray-800 mb-2">Project 1</h3>
+            <p class="text-gray-600 mb-4">A modern e-commerce website that provides a seamless shopping experience for
+              users.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project</a>
+          </div>
+        </div>
+        <!-- Project Card 2 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover-transform">
+          <img src="https://zappyedit.com/templates/thumbs/portfolio1.png" alt="Project 2"
+            class="w-full h-56 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-xl text-gray-800 mb-2">Project 2</h3>
+            <p class="text-gray-600 mb-4">A portfolio website designed to showcase creative work with a focus on
+              minimalism.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project</a>
+          </div>
+        </div>
+        <!-- Project Card 3 -->
+        <div class="bg-white rounded-lg shadow-lg overflow-hidden hover-transform">
+          <img src="https://zappyedit.com/templates/thumbs/landing1.png" alt="Project 3"
+            class="w-full h-56 object-cover">
+          <div class="p-6">
+            <h3 class="font-semibold text-xl text-gray-800 mb-2">Project 3</h3>
+            <p class="text-gray-600 mb-4">A sleek, responsive web app designed to manage tasks and increase
+              productivity.</p>
+            <a href="#" class="text-indigo-600 hover:underline">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-24 px-6 bg-white">
+    <div class="max-w-7xl mx-auto text-center">
+      <h2 class="section-title text-4xl font-semibold mb-8">Contact Me</h2>
+      <p class="text-lg text-gray-600 mb-8">Let's work together! I'm open to freelance opportunities and collaborations.
+        Feel free to drop a message!</p>
+      <form action="#" method="POST" class="max-w-2xl mx-auto space-y-6">
+        <input type="text" name="name" placeholder="Your Name"
+          class="w-full px-6 py-3 border border-gray-300 rounded-lg" required>
+        <input type="email" name="email" placeholder="Your Email"
+          class="w-full px-6 py-3 border border-gray-300 rounded-lg" required>
+        <textarea name="message" placeholder="Your Message" class="w-full px-6 py-3 border border-gray-300 rounded-lg"
+          required></textarea>
+        <button type="submit" class="cta-button w-full">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gradient-to-r from-indigo-600 to-purple-700 text-white py-6 text-center">
+    <p>&copy; 2026 My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+</body>
+
+</html>
